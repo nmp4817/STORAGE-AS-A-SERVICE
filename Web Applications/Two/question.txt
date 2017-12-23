@@ -1,0 +1,15 @@
+Program,
+    - has simple menu to: list local files 
+    - menu has exit option
+    - count number of bytes (characters) in a file that are equal to 0, that is:
+      count number of 0 bytes (or words) in a data file (this will be used to check that
+      file uploaded, stored and downloaded has not been corrupted.)
+      This is called the zerocount.
+    - upload file and zerocount to Bluemix, 
+      if file already exists on Bluemix allow (this is your choice) either the user to change 
+      the name of the destination file OR give it a different version number (1,2,3... etc) appended to file name
+      you may store files in database or as files.  
+    - menu should list cloud files
+    - be able to get file from cloud to local, then compare zerocounts (local and from cloud), show result.
+  
+ 

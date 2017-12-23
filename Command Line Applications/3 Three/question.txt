@@ -1,0 +1,6 @@
+Created three cloud based folders, one for text files, one for pictures larger than 200 KB, and one for smaller pictures.
+    - allows a user to list the contents of any of the three remote folders 
+    - allows a user to select which folder an upload will go to (or your program may determine this
+      based on the local file type, this is your choice.)
+    - do not allow the total size of the contents of any folder to exceed a user specified size
+      (for example the size of all files in a folder must be smaller than 500 KB). 

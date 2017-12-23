@@ -1,0 +1,21 @@
+IBM bluemix Web app, Cloudant NoSQL DB and hashing.
+Task: Maintain the version history of each file stored on the cloud, by using database on IBM Bluemix. 
+
+Created a webpage on IBM Bluemix to achieve the following goals
+1.	Upload a file – the user should be able to browse for a file on their local computer (or tablet, etc) and then upload it via a Bluemix web app. The file should be hashed and then both stored on to the NoSQL database on Bluemix. The database should contain (at least) the following fields – hashed value, filename, version number, last modified date and the actual contents of the file.  While uploading the file, check if the file name already exists. If the file name already exists then check if the contents of the file being uploaded is the same as an already existing version. If contents match with any of the versions then discard the upload (with a warning message) else upload the file assigning a new version number.
+2.	Download the file – User should be able to download the file on to your local machine. The user should provide the file name and then version number to download the file.
+3.	List the files – User should be able to list the files along with the version number and last modified date that are uploaded on to the Bluemix. 
+4.	Delete a file – User should provide the file name and the version number to delete the file (remove the entry from the database).
+
+
+Getting started with Cloudant NoSQL DB
+	You can get started on how to create, delete and update documents in the database in the following link
+	http://python-cloudant.readthedocs.org/en/latest/getting_started.html
+
+Introduction to flask:
+	The following page gives a good introduction to flask.  
+	http://flask.pocoo.org/docs/0.10/quickstart/ 
+
+	Getting started with flask application on Bluemix.
+	For the webapp you can download the sample python flask application from 
+	https://github.com/IBM-Bluemix/bluemix-python-flask-sample and then make modifications in order to meet the requirements.
